@@ -21,6 +21,9 @@ header {
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+        
+
 }
 nav {
     display: grid;
@@ -43,7 +46,7 @@ nav {
 }
 .image1 {
     height: 5vh;
-    margin-left: -10vw;
+    margin-left: -9vw;
     margin-top: -1.5vh;
 }
 a {
@@ -53,7 +56,7 @@ a {
 /* main partie 1 */
 .main {
     display: grid;
-    grid-template-rows: repeat(2, 1fr)
+    grid-template-rows: repeat(1, 1fr)
 }
 .section1 {
     display: grid;
@@ -91,7 +94,167 @@ color: #bb232e;
         }
     }
 }
+
+/* main 2*/
+.section2{
+    
+    height: 70vh;
+    background-color: #bb232e;
+    padding: 10rem;
+}
+.critique{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+body {
+    main {
+        .section2 {
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 1rem;
+                margin-top: 1vh;
+                list-style: none;
+               
+                li {
+                    background-color: #ffffff;
+                    color: black;
+                    height: 60vh;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
+                    
+
+                }
+                }
+            }
+        }
+    }
+
+
+body {
+    main {
+        .section2 {
+            ul {
+                li {
+                    article {
+                        header{
+                            img {
+                                width: 80%;
+                                margin-top: 2vh;
+                                margin-left: 5.5vh;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+    main {
+        .section2{
+            ul {
+                li {
+                    article {
+                        section {
+                            margin-top: 24vh;
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+body {
+    main {
+        .section2{
+            ul {
+                li {
+                    article {
+                        footer {
+                            margin-top: 8vh;
+                            margin-left: 1vw;
+                            a {
+                               color: #bb232e;
+                               font-weight: bold;
+                              text-decoration: underline 0.2em solid #bb232e;
+                              text-underline-offset: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+body {
+    main {
+        .section2{
+            ul {
+                li {
+                    header {
+                        h4 {
+                            font-weight: 700;
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* footer */
+
+body {
+    .footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: #1c2f42;
+        height: 20vh;
+        text-align: center;
+    }
+}
+
+body {
+    .footer {
+        h6 {
+            margin-top: 2vh;
+            color: #ffffff;
+        }
+    }
+}
+body {
+    .footer {
+        figure {
+            img {
+                width: 5%;
+            }
+        }
+    }
+}
+
+body {
+    .footer {
+        p {
+            color: #ffffff;
+        }
+    }
+}
+
+
+
+
+
+
+
 /* main partie 2 */
+/*
 .critique {
     text-align: center;
     color: white;
@@ -118,7 +281,7 @@ border-radius: 5px;
 box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
 }
 .image-article{
-    width: 100%;
+    
 }
 .li-article{
     height: 80vh;
@@ -128,4 +291,5 @@ box-shadow: 3px 3px 6px rgb(0 0 0 / 20%);
 }
 .h4-article{
     margin-top: 20vh;
-}
+} 
+*/
